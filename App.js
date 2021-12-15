@@ -8,7 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import AssetExample from './components/AssetExample';
 import Code from './components/Code'
 import Page from './components/Page';
-import Login from './components/Login';
+import Login from './components/Auth/Login';
 import Profile from './components/Profile'
 
 // or any pure javascript modules available in npm
