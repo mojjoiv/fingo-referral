@@ -9,6 +9,7 @@ import AssetExample from './components/AssetExample';
 import Code from './components/Code'
 import Page from './components/Page';
 import Login from './components/Login';
+import Profile from './components/Profile'
 
 // or any pure javascript modules available in npm
 import { Card, Box } from 'react-native-paper';
@@ -16,10 +17,12 @@ const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login" detachInactiveScreens>
-      <Stack.Screen name="Referral Code Page" component={Page} />
-        <Stack.Screen name="code" component={Code} />        
+    <NavigationContainer >
+      <Stack.Navigator initialRouteName="Login">
+              <Stack.Screen style={styles.container2} name="login" component={Login} />
+        <Stack.Screen style={styles.container2} name="code" component={Code} />
+          <Stack.Screen style={styles.container2} name="referral" component={Page} />
+        <Stack.Screen style={styles.container2} name="profile" component={Profile} />
       </Stack.Navigator>
     </NavigationContainer>
     

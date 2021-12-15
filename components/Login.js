@@ -57,7 +57,7 @@ export default function Login() {
     }
   };
 
-  const forggot = () => {
+  const forgot = () => {
     alert('forgot Password');
   };
 
@@ -67,8 +67,9 @@ export default function Login() {
         {message}
       </Text>
       <Image style={styles.image} source={require('../assets/ref.png')} />
-
+      <Text style={{color: '#003f5c', fontSize: 30, textAlign: 'center'}}>REFERRAL APP</Text>
       <StatusBar style="auto" />
+      
       <View style={styles.inputView}>
         <TextInput
           style={styles.TextInput}

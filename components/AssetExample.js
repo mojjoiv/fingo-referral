@@ -1,4 +1,4 @@
-/*This is an Example of Grid View in React Native*/
+
 import React, { Component } from 'react';
 import {
   StyleSheet,
