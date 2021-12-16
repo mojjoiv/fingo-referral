@@ -4,6 +4,7 @@ View, Image} from 'react-native';
 import { Appbar } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import AppContainer from './Details'
 
   
 type Props = {};  
@@ -53,6 +54,10 @@ export default class App extends Component<Props> {
           <TouchableHighlight onPress={() => navigation.navigate("profile")}
                   style={styles.bottomButtons}>
               <Text style={styles.footerText}>Profile</Text>
+          </TouchableHighlight>
+          <TouchableHighlight onPress={() => navigation.navigate("profile")}
+                  style={styles.bottomButtons}>
+              <Text style={styles.footerText}>My Contacts</Text>
           </TouchableHighlight>
           </View>
       </View> 

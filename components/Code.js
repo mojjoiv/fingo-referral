@@ -57,6 +57,10 @@ const Code = ({ navigation }) => {
                   style={styles.bottomButtons}>
               <Text style={styles.footerText}>Profile</Text>
           </TouchableHighlight>
+          <TouchableHighlight onPress={() => navigation.navigate("profile")}
+                  style={styles.bottomButtons}>
+              <Text style={styles.footerText}>My Contacts</Text>
+          </TouchableHighlight>
           </View>
     </View>
     

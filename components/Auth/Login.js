@@ -66,7 +66,7 @@ export default function Login() {
       <Text style={{ marginTop: 20, fontSize: 15, color: 'green' }}>
         {message}
       </Text>
-      <Image style={styles.image} source={require('../assets/ref.png')} />
+      <Image style={styles.image} source={require('./ref.png')} />
       <Text style={{color: '#003f5c', fontSize: 30, textAlign: 'center'}}>REFERRAL APP</Text>
       <StatusBar style="auto" />
       

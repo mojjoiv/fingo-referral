@@ -48,6 +48,10 @@ export default function Profile() {
                   style={styles.bottomButtons}>
               <Text style={styles.footerText}>Referees</Text>
           </TouchableHighlight>
+          <TouchableHighlight onPress={(navigation) => navigation.navigate("profile")}
+                  style={styles.bottomButtons}>
+              <Text style={styles.footerText}>My Contacts</Text>
+          </TouchableHighlight>
           </View>
         
       </View>

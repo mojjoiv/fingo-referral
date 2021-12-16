@@ -19,7 +19,7 @@ export default function App() {
   return (
     <NavigationContainer >
       <Stack.Navigator initialRouteName="Login">
-      <Stack.Screen style={styles.container2} name="code" component={Code} />
+             <Stack.Screen style={styles.container2} name="code" component={Code} />
               <Stack.Screen style={styles.container2} name="login" component={Login} />
           <Stack.Screen style={styles.container2} name="referral" component={Page} />
         <Stack.Screen style={styles.container2} name="profile" component={Profile} />
